@@ -1,50 +1,56 @@
-<h1 align="center">¡Hola! Soy Rafael 👋</h1>
+# Hola, soy Rafael 👋
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=2F81F7&center=true&vCenter=true&width=500&lines=Intent%C3%A1ndolo+desde+el+%2792;Desarrollador+Python;Apps+de+escritorio+y+automatizaci%C3%B3n" alt="Typing SVG" />
-</p>
+**Desarrollo herramientas de escritorio en Python para automatizar tareas con imágenes, audio y vídeo.**
 
----
+Me interesa convertir procesos repetitivos en aplicaciones prácticas: una interfaz clara, procesamiento en segundo plano y resultados que puedas usar.
 
-### 🧭 Sobre mí
+[Proyectos](#proyectos-destacados) · [Tecnologías](#tecnologías) · [Contacto](#contacto)
 
-- 🐍 Desarrollo aplicaciones de escritorio en **Python**, con foco en herramientas prácticas del día a día (compresión de imágenes, transcripción de audio/video).
-- 🔭 Ahora mismo estoy modernizando uno de mis proyectos: migrando la interfaz, moviendo el procesamiento a hilos para no congelar la UI, y ampliando los formatos soportados (RAW, PDF, video, DGN).
-- 🌱 Explorando frameworks de UI más modernos para Python: CustomTkinter, PySide6, Flet.
-- 📫 Puedes encontrarme también en X: [@rafaeltorres_b](https://twitter.com/rafaeltorres_b)
+## Proyectos destacados
 
----
+### 📦 [Compressor JPEG](https://github.com/rafaeltorres8/Compressor_JP_E_G_v0)
 
-### 🛠️ Proyectos destacados
+Comprime y redimensiona imágenes JPEG por lotes, conservando la estructura de subcarpetas.
 
-<table>
-  <tr>
-    <td width="50%">
-      <h4>📦 Compressor JPEG</h4>
-      <p>App de escritorio (Tkinter) que comprime y redimensiona en lote imágenes <code>.jpg</code>/<code>.jpeg</code>, conservando la estructura de subcarpetas. Lógica de procesamiento separada de la interfaz y suite de tests.</p>
-      <a href="https://github.com/rafaeltorres8/Compressor_JP_E_G_v0">Ver repositorio →</a>
-    </td>
-    <td width="50%">
-      <h4>🎙️ Transcriptor Pro</h4>
-      <p>Transcriptor de audio y video con interfaz gráfica, construido sobre OpenAI Whisper y FFmpeg.</p>
-      <a href="https://github.com/rafaeltorres8/Transcriptor_Pro_v0">Ver repositorio →</a>
-    </td>
-  </tr>
-</table>
+- Ajusta la calidad y el tamaño máximo, y corrige la orientación según EXIF.
+- Procesa las imágenes en un hilo separado y permite cancelar el trabajo.
+- Incluye validaciones de archivos y rutas, límites de tamaño y pruebas automatizadas.
 
----
+**Tecnologías:** Python · Tkinter · Pillow · pytest  
+[Ver código y guía de uso →](https://github.com/rafaeltorres8/Compressor_JP_E_G_v0#readme)
 
-### 📊 Estadísticas
+### 🎙️ [Transcriptor Pro](https://github.com/rafaeltorres8/Transcriptor_Pro_v0)
 
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=rafaeltorres8&show_icons=true&theme=default&hide_border=true&count_private=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rafaeltorres8&layout=compact&hide_border=true&theme=default" />
-</p>
+Transcribe audio y vídeo en el equipo con Whisper y FFmpeg, desde una interfaz gráfica.
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=rafaeltorres8&theme=default&hide_border=true" />
-</p>
+- Exporta a **TXT, Markdown, SRT, VTT y JSON**.
+- Usa GPU con CUDA cuando está disponible y CPU como alternativa.
+- Ejecuta la transcripción en segundo plano, muestra el progreso y guarda preferencias.
+- Separa la lógica de procesamiento de la interfaz e incluye pruebas automatizadas.
 
----
+**Tecnologías:** Python · PySide6 · Whisper · FFmpeg · PyTorch · pytest  
+[Ver código y guía de uso →](https://github.com/rafaeltorres8/Transcriptor_Pro_v0#readme)
 
-<p align="center"><i>Gracias por pasarte por aquí 🙌</i></p>
+> La transcripción es local y no requiere una clave de la API de OpenAI. Whisper puede descargar los modelos cuando no están disponibles en la caché.
+
+## Tecnologías
+
+| Área | Herramientas que uso en estos proyectos |
+| --- | --- |
+| Aplicaciones de escritorio | Tkinter, PySide6 |
+| Imágenes | Pillow |
+| Audio y vídeo | Whisper, FFmpeg, PyTorch |
+| Calidad y mantenimiento | pytest, Git, separación entre interfaz y lógica |
+
+## Lo que estoy explorando
+
+- Interfaces de escritorio con CustomTkinter y Flet.
+- Ampliar las herramientas a otros formatos, como RAW, PDF, vídeo y DGN.
+
+Estas ampliaciones son líneas de exploración; no forman parte de las funciones actuales del compresor JPEG.
+
+## Contacto
+
+Puedes encontrarme en **X: [@rafaeltorres_b](https://twitter.com/rafaeltorres_b)**.
+
+Si tienes una sugerencia o encuentras un problema, puedes abrir una incidencia en el repositorio correspondiente.
