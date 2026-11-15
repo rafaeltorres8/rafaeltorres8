@@ -21,7 +21,7 @@
   <tr>
     <td width="50%">
       <h4>📦 Compressor JPEG</h4>
-      <p>App de escritorio (Tkinter) que comprime y redimensiona en lote imágenes <code>.jpg</code>/<code>.jpeg</code>, conservando la estructura de subcarpetas. Arquitectura con procesadores tipo plugin y suite de tests.</p>
+      <p>App de escritorio (Tkinter) que comprime y redimensiona en lote imágenes <code>.jpg</code>/<code>.jpeg</code>, conservando la estructura de subcarpetas. Lógica de procesamiento separada de la interfaz y suite de tests.</p>
       <a href="https://github.com/rafaeltorres8/Compressor_JP_E_G_v0">Ver repositorio →</a>
     </td>
     <td width="50%">
